@@ -15,7 +15,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/jpa")
 @RequiredArgsConstructor
-public class MyJPAController {
+public class JPAController {
     private final HeroRepository heroRepository;
     private final WeaponRepository weaponRepository;
 
